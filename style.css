@@ -1,105 +1,105 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .wrapper {
-	width: 100%;
-	min-height: 100vh;
-	background-color: rgb(37, 37, 37);
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(37, 37, 37);
 }
 
 .container{
-	margin: 0 auto;
-	width: 70%;
-	min-height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .btnAddCalc {
-	position: fixed;
-	right: 5%;
-	bottom: 5%;
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	border: none;
-	color: #fff;
-	font-size: 24pt;
-	font-weight: 700;
-	background: rgb(68, 180, 218);
-	cursor: pointer;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-size: 24pt;
+  font-weight: 700;
+  background: rgb(68, 180, 218);
+  cursor: pointer;
 }
 
 .calc {
-	width: 95%;
-	height: 400px;
-	background-color: rgba(153, 153, 153, 0.575);
-	padding: 4px;
-	margin: 10px;
+  width: 95%;
+  height: 400px;
+  background-color: rgba(153, 153, 153, 0.575);
+  padding: 4px;
+  margin: 10px;
 }
 
 .screen {
-	margin: 2% 0;
-	width: 100%;
-	height: 20%;
-	border: 1px solid black;
-	font-size: 44px;
-	color: #fff;
-	overflow: hidden;
+  margin: 2% 0;
+  width: 100%;
+  height: 20%;
+  border: 1px solid black;
+  font-size: 44px;
+  color: #fff;
+  overflow: hidden;
 }
 
 .result {
-	display: flex;
-	justify-content: end;
-	align-items: center;
-	width: 100%;
-	height: 30%;
-	padding-top: 1%;
-	font-size: 16px;
-	color: rgb(197, 197, 197);
-	overflow: hidden;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding-top: 1%;
+  font-size: 16px;
+  color: rgb(197, 197, 197);
+  overflow: hidden;
 }
 
 .enter {
-	display: flex;
-	word-break: break-all;
-	justify-content: end;
-	align-items: center;
-	width: 100%;
-	height: 70%;
-	padding: 4px;
-	overflow-x: auto;
-	font-size: 45px;
-	overflow: hidden;
+  display: flex;
+  word-break: break-all;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  padding: 4px;
+  overflow-x: auto;
+  font-size: 45px;
+  overflow: hidden;
 }
 
 .buttons {
-	margin: 2px;
-	height: 75%;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 2px;
+  height: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .btn {
-	border: none;
-	cursor: pointer;
-	margin: auto auto;
-	width: 95%;
-	height: 90%;
-	font-size: 18pt;
+  border: none;
+  cursor: pointer;
+  margin: auto auto;
+  width: 95%;
+  height: 90%;
+  font-size: 18pt;
 }
 
 .btn:active {
-	background-color: rgb(112, 112, 112);
+  background-color: rgb(112, 112, 112);
 }
 
 .num,
 .swapSign,
 .decimalPoint {
-	background-color: #000;
-	color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .sign,
@@ -109,11 +109,11 @@
 .degree,
 .sqrt,
 .backspace {
-	background-color: grey;
-	color: #fff;
+  background-color: grey;
+  color: #fff;
 }
 
 .equal {
-	background-color: rgba(99, 99, 247, 0.411);
-	color: #fff;
+  background-color: rgba(99, 99, 247, 0.411);
+  color: #fff;
 }
