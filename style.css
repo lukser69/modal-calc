@@ -8,7 +8,7 @@
 	background-color: rgb(37, 37, 37);
 }
 
-.windowWithCalculators {
+.container{
 	margin: 0 auto;
 	width: 70%;
 	min-height: 100vh;
